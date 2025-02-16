@@ -1,11 +1,15 @@
 .app-container{
-    text-align: center;
-    margin-top: 50px;
-    font-family: Arial, snas-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
 .counter {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 20px 0;
     font-weight: bold;
     color: #333;
